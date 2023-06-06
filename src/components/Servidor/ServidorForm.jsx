@@ -31,7 +31,6 @@ function ServidorForm(props) {
 
     useEffect(() => {
         if (props.servidorAEditar.id) {
-            console.log(props.servidorAEditar)
             setId(props.servidorAEditar.id)
             setNomeDigitado(props.servidorAEditar.nome)
             setIdadeDigitado(props.servidorAEditar.idade)

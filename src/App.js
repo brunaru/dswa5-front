@@ -14,6 +14,7 @@ function App() {
   }
 
   function CheckLogin() {
+    //authtoken.removeAuthToken()
     setLoggedIn(authtoken.getAuthToken())
     if (isLoggedIn) {
       return (<Router>
