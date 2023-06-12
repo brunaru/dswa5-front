@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Navegacao from './components/Navegacao/Navegacao'
-import LoginPage from './components/Autorizacao/LoginPage'
+import Login from './components/Autorizacao/Login'
 import Rotas from './services/routes'
 import authtoken from './services/authtoken'
 import { useState } from 'react'
@@ -26,7 +26,7 @@ function App() {
     }
     return (
     <div className="App">
-      <LoginPage setLogin={setLogin} />
+      <Login setLogin={setLogin} />
     </div>)
   }
 

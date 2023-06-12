@@ -24,3 +24,17 @@ nav li {
     flex-direction: row;
     margin-right: 1em;
 }
+
+.logout {
+    background-color: gray;
+    border: none;
+    color: gainsboro;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: fit-content;
+}
+.logout:hover {
+    background-color: cadetblue;
+}

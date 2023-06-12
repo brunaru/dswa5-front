@@ -9,6 +9,7 @@
   }
   
   input[type="text"],
+  input[type="email"],
   input[type="password"] {
     height: 25px;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -25,6 +26,20 @@
   .button-container {
     display: flex;
     justify-content: center;
+  }
+
+  .button-change {
+    background-color: deepskyblue;
+    border: none;
+    color: gainsboro;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: fit-content;
+  }
+  .button-change:hover {
+    background-color: #6cf0c2;
   }
   
   .login-form {

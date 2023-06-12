@@ -1,6 +1,6 @@
+import './PatrimonioLista.css'
 import Patrimonio from './Patrimonio'
 import PatrimonioForm from './PatrimonioForm'
-import './PatrimonioLista.css'
 import { useEffect, useState } from 'react'
 import api from '../../services/patrimonio.api'
 

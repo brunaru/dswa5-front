@@ -1,10 +1,14 @@
 import axios from 'axios'
-import auth from './authtoken.js'
 
 const url_login = 'http://localhost:3001/signin'
+const url_cadastrar = 'http://localhost:3001/signup'
 
 async function signin(usuario) {
-    return (await axios.post(url_login, usuario)).data
+    return axios.post(url_login, usuario)
 }
 
-export default { signin }
+async function signup(usuario) {
+    return axios.post(url_cadastrar, usuario)
+}
+
+export default { signin, signup }
